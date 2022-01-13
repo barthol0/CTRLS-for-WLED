@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "CTRLS-for-WLED",
+    "version": "1.0",
+
+    "description": "Easily accessable controls for WLED powered devices.",
+    "icons": {
+        "48": "icons/wled.png"
+    },
+    "browser_action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "icons/wled.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.google.com/search?*"],
+            "js": ["main.js"]
+        }
+    ],
+
+    "permissions": ["*://duckduckgo.com/html/*"]
+}
