@@ -4,13 +4,43 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="../style.css" />
+
         <title>Document</title>
     </head>
-    <body style="margin: 0; padding: 0; border: 0">
-        <iframe
-            src="http://192.168.1.56/?"
-            title="W3Schools Free Online Web Tutorials"
-            style="margin: 0; padding: 0; border: 0; width: 780px; height: 596px"
-        ></iframe>
+    <body>
+        <!-- HEADER -->
+        <div class="navbar">
+            <ul>
+                <li class="navbar-left-btn">
+                    <a href="default.asp">
+                        <img class="btn-img" src="../icons/icon_bin.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href=""><img src="../icons/wled_logo.png" class="logo-img" /></a>
+                </li>
+                <li class="navbar-right-btn">
+                    <a href="contact.asp">
+                        <img class="btn-img" src="../icons/icon_add.png" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="content">
+            <div class="welcome-msg">
+                <h2>Welcome!</h2>
+                <p>Please use the &quot;+&quot; button to add your WLED lights!</p>
+            </div>
+            <!-- <iframe
+                src="http://192.168.1.56/"
+                title="W3Schools Free Online Web Tutorials"
+                style="margin: 0; padding: 0; border: 0; width: 780px; height: 596px"
+            ></iframe> -->
+        </div>
     </body>
+    <script src="../main.js"></script>
 </html>

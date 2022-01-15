@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+}
+ul,
+p {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #555;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar li {
+    /* display: inline; */
+}
+
+.btn-img {
+    height: 40px;
+}
+.logo-img {
+    height: 40px;
+}
+
+/* CONTENT */
+.content {
+    background-color: #222;
+    height: 100%;
+}
+.welcome-msg {
+    padding-top: 30px;
+    color: #fff;
+    text-align: center;
+}
